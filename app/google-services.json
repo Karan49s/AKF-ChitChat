@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "608451232496",
+    "firebase_url": "https://chit-chat-1224e.firebaseio.com",
+    "project_id": "chit-chat-1224e",
+    "storage_bucket": "chit-chat-1224e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608451232496:android:e9e1e169e68a4d02553835",
+        "android_client_info": {
+          "package_name": "com.karan.chit_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608451232496-u2b6hlrpc7tj1bibqjs3pqfe24f85kjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8mnkQ10wpwn08hO55Q8Dq6bckrOOaSP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608451232496-u2b6hlrpc7tj1bibqjs3pqfe24f85kjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
