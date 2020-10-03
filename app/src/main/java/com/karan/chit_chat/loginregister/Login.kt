@@ -1,11 +1,12 @@
-package com.karan.chit_chat
+package com.karan.chit_chat.loginregister
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.karan.chit_chat.R
 
-class Splash : AppCompatActivity() {
+class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
+        setContentView(R.layout.activity_login)
     }
 }

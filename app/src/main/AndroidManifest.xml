@@ -9,16 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Home"></activity>
-        <activity android:name=".Splash" />
-        <activity android:name=".Login" />
-        <activity android:name=".Register">
+        <activity android:name=".messeges.chatlog">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".messeges.Home" />
+        </activity>
+        <activity android:name=".messeges.NewMessage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".messeges.Home" />
+        </activity>
+        <activity android:name=".loginregister.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LoggedIn" />
+        <activity android:name=".loginregister.AboutApp" />
+        <activity android:name=".messeges.Home" />
+        <activity android:name=".loginregister.Login" />
+        <activity android:name=".loginregister.Register" />
     </application>
 
 </manifest>
